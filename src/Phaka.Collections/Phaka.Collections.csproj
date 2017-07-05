@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>Werner Strydom</Authors>
+    <Company>Werner Strydom</Company>
+    <Product>Phaka</Product>
+    <Description>Impelements an dependency graph that can be used to schedule activities.</Description>
+    <Copyright>Copyright (c) 2017 Werner Strydom</Copyright>
+    <PackageProjectUrl>https://github.com/Phaka/Phaka.Collections</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Phaka/Phaka.Collections/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Phaka/Phaka.Collections</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>dependency graph phaka</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
